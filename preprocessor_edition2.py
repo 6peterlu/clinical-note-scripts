@@ -3,24 +3,26 @@ Clinical note preprocessor.
 
 Created by Peter Lu (peterlu6@stanford.edu)
 
+Usage: python preprocessor.py inputfile.txt outputfile.txt date excludelist1 excludelist2 ...
+
 Features added:
+1. change all text to lowercase
+2. remove all numbers except single digits
+3. remove all special characters
 
 TODO:
-1. change all text to lowercase *
-2. concatenate into single string *
-3. remove all numbers except single digits (test this)
-4. remove all matches to exclude list
-5. mark dates by time before input date
+1. remove all matches to exclude list
+2. mark dates by time before input date
 '''
 import re #regexes
 import sys #command line arguments
 
 def concatenate_into_string(infile):
 	total_text = ""
-	for line in file:
+	for line in infile:
 		line = line.replace('\n', ' ')
 		total_text += line
-	return line
+	return total_text
 
 def get_word_for_digit(digit):
 	if num == 0:
@@ -46,10 +48,14 @@ def get_word_for_digit(digit):
 	else:
 		return "word representation error with the number " + str(num);
 
-def preprocess(input):
-	output = input.lower()
-	output = re.sub(r"\d\d+", "")
+def preprocess(inputstr):
+	output = inputstr.lower()
+	output = re.sub(r"\d\d+", "", output)
+	output = re.sub(r'[;()"%\'\.\/\:\?\-]', '', output)
 	return output
+
+def write_to_file(outputstr, outfile):
+	outfile.write(outputstr)
 
 def main():
 	num_arguments = len(sys.argv)
@@ -59,12 +65,14 @@ def main():
 	exclude_list = []
 	for i in range(4, num_arguments):
 		exclude_list.append(sys.argv[i])
+
 	infile = open(infilename, 'r')
-	outfile = open(outfilename, 'w')
-
-	preprocess(infile, outfile)
-
+	inputstr = concatenate_into_string(infile)
 	infile.close()
+
+	outputstr = preprocess(inputstr)
+	outfile = open(outfilename, 'w')
+	write_to_file(outputstr, outfile)
 	outfile.close()
 
 	print "\nDone! Cleaned text is in " + outfilename
