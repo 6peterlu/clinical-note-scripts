@@ -1,18 +1,27 @@
 '''
-Clinical note preprocessor.
+Clinical note preprocessor for machine learning algorithms.
 
-Created by Peter Lu (peterlu6@stanford.edu)
+CREATED BY: Peter Lu (peterlu6@stanford.edu)
 
-Usage: python preprocessor.py inputfile.txt outputfile.txt date excludelist1 excludelist2 ...
+USAGE: python preprocessor.py inputfile.txt outputfile.txt date excludelist1 excludelist2 ...
 
-Features added:
+FEATURES:
 1. change all text to lowercase
 2. remove all numbers except single digits
 3. remove all special characters
+4. remove all matches to exclude list
+5. substitute all one digit numbers with strings
+6. remove extraneous whitespace
+7. remove new lines
 
 TODO:
-1. remove all matches to exclude list
+1. recognize dates
 2. mark dates by time before input date
+3. put events in chronological order
+4. possibly merge words that are separated by dashes?
+
+
+LAST UPDATED: 1/8/2017
 '''
 import re #regexes
 import sys #command line arguments
@@ -24,34 +33,35 @@ def concatenate_into_string(infile):
 		total_text += line
 	return total_text
 
-def get_word_for_digit(digit):
-	if num == 0:
-		return "zero";
-	elif num == 1:
-		return "one";
-	elif num == 2:
-		return "two";
-	elif num == 3:
-		return "three";
-	elif num == 4:
-		return "four";
-	elif num == 5:
-		return "five";
-	elif num == 6:
-		return "six";
-	elif num == 7:
-		return "seven";
-	elif num == 8:
-		return "eight";
-	elif num == 9:
-		return "nine";
-	else:
-		return "word representation error with the number " + str(num);
+def substitute_word_for_digit(output):
+	output = re.sub(r"0", " zero ", output)
+	output = re.sub(r"1", " one ", output)
+	output = re.sub(r"2", " two ", output)
+	output = re.sub(r"3", " three ", output)
+	output = re.sub(r"4", " four ", output)
+	output = re.sub(r"5", " five ", output)
+	output = re.sub(r"6", " six ", output)
+	output = re.sub(r"7", " seven ", output)
+	output = re.sub(r"8", " eight ", output)
+	output = re.sub(r"9", " nine ", output)
+	return output
 
-def preprocess(inputstr):
+def remove_forbidden_tokens(output, exclude_list):
+	for item in exclude_list:
+		output = re.sub(r""+re.escape(item)+r"", "", output)
+	return output
+
+
+'''
+The primary method. Takes input as a string and an exclusion list of strings and outputs a string.
+'''
+def preprocess(inputstr, exclude_list):
 	output = inputstr.lower()
-	output = re.sub(r"\d\d+", "", output)
-	output = re.sub(r'[;()"%\'\.\/\:\?\-]', '', output)
+	output = re.sub(r"\d\d+", "", output) #remove multidigit numbers
+	output = re.sub(r'[;()"%\'\.\/\:\?\-,]', '', output) #remove special characters
+	output = substitute_word_for_digit(output) #substitute single digit numbers with words
+	output = remove_forbidden_tokens(output, exclude_list)
+	output = re.sub(r" +", " ", output) #remove extraneous whitespace
 	return output
 
 def write_to_file(outputstr, outfile):
@@ -62,15 +72,16 @@ def main():
 	infilename = sys.argv[1]
 	outfilename = sys.argv[2]
 	date = sys.argv[3]
+
 	exclude_list = []
-	for i in range(4, num_arguments):
+	for i in range(4, num_arguments): #populate exclude list
 		exclude_list.append(sys.argv[i])
 
 	infile = open(infilename, 'r')
 	inputstr = concatenate_into_string(infile)
 	infile.close()
 
-	outputstr = preprocess(inputstr)
+	outputstr = preprocess(inputstr, exclude_list)
 	outfile = open(outfilename, 'w')
 	write_to_file(outputstr, outfile)
 	outfile.close()
