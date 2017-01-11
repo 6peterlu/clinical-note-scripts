@@ -18,7 +18,7 @@ FEATURES:
 TODO:
 1. put events in chronological order
 2. integrate ontology
-
+3. consider stemming word forms (Porter's algorithm)
 
 LAST UPDATED: 1/10/2017
 '''
