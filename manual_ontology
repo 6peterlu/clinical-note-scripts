@@ -1,0 +1,406 @@
+1|non small cell lung cancer nos|nsclc
+2|non small cell carcinoma of lung|nsclc
+3|non small cell lung cancer nos|nsclc
+4|non small cell lung cancer|nsclc
+5|nsclc non small cell lung cancer|nsclc
+6|non small cell carcinoma of the lung|nsclc
+7|non small cell cancer of the lung|nsclc
+8|non small cell cancer of lung|nsclc
+9|lung small cell neuroendocrine carcinoma|sclc
+10|oat cell carcinoma of lung|sclc
+11|small cell carcinoma of the lung|sclc
+12|oat cell carcinoma of the lung|sclc
+13|small cell lung cancer|sclc
+14|lung oat cell carcinoma|sclc
+15|small cell neuroendocrine carcinoma of lung|sclc
+16|small cell carcinoma of lung|sclc
+17|small cell neuroendocrine carcinoma of the lung|sclc
+18|oat cell lung carcinoma|sclc
+19|invasive ductal adenocarcinoma|invasiveductalcarcinoma
+20|invasive ductal carcinoma|invasiveductalcarcinoma
+21|invasive ductal carcinoma nst|invasiveductalcarcinoma
+22|infiltrating ductal carcinoma of the breast|invasiveductalcarcinoma
+23|invasive ductal breast carcinoma|invasiveductalcarcinoma
+24|invasive ductal carcinoma nos|invasiveductalcarcinoma
+25|invasive ductal carcinoma of breast|invasiveductalcarcinoma
+26|invasive ductal carcinoma no specific type|invasiveductalcarcinoma
+27|infiltrating ductal carcinoma|invasiveductalcarcinoma
+28|invasive ductal carcinoma of the breast|invasiveductalcarcinoma
+29|infiltrating ductal breast carcinoma|invasiveductalcarcinoma
+30|infiltrating ductal carcinoma of breast|invasiveductalcarcinoma
+31|infiltrating ductal adenocarcinoma|invasiveductalcarcinoma
+32|pulmonary embolism|pe
+33|stage iv|metastatic
+34|stage four|metastatic
+35|incurable|terminal
+36|kpss karnofsky performance status|kps
+37|kpss01|kps
+38|radiation therapy|radiotherapy
+39|radiation treatment|radiotherapy
+40|breathing difficulties|dyspnea
+41|difficulty breathing|dyspnea
+42|shortness of breath|dyspnea
+43|crackles|rales
+44|pulmonary rales|rales
+45|crepitations|rales
+46|induction therapy|neoadjuvant
+47|preoperative therapy|neoadjuvant
+48|neoadjuvant therapy|neoadjuvant
+49|post operative|adjuvant
+50|postoperative|adjuvant
+51|carcinoma of the stomach|stomachcancer
+52|cancer of stomach|stomachcancer
+53|cancer of the stomach|stomachcancer
+54|gastric cancer nos|stomachcancer
+55|stomach cancer|stomachcancer
+56|stomach carcinoma|stomachcancer
+57|carcinoma of stomach|stomachcancer
+58|gastric cancer|stomachcancer
+59|gastric carcinoma|stomachcancer
+60|adenocarcinoma stomach|stomachcancer
+61|adenocarcinoma of stomach|stomachcancer
+62|adenocarcinoma of the stomach|stomachcancer
+63|stomach adenocarcinoma|stomachcancer
+64|gastric adenocarcinoma|stomachcancer
+65|adenosquamous carcinoma of stomach|stomachcancer
+66|adenosquamous carcinoma of the stomach|stomachcancer
+67|gastric adenosquamous carcinoma|stomachcancer
+68|gastric body cancer|stomachcancer
+69|cancer of gastric body|stomachcancer
+70|cancer of the body of the stomach|stomachcancer
+71|carcinoma of body of stomach|stomachcancer
+72|carcinoma of the gastric body|stomachcancer
+73|cancer of the gastric body|stomachcancer
+74|carcinoma of gastric body|stomachcancer
+75|cancer of body of stomach|stomachcancer
+76|carcinoma of the body of the stomach|stomachcancer
+77|gastric body carcinoma|stomachcancer
+78|carcinoma of cardia of stomach|stomachcancer
+79|carcinoma of the gastric cardia|stomachcancer
+80|gastric cardia cancer|stomachcancer
+81|carcinoma of gastric cardia|stomachcancer
+82|cancer of the gastric cardia|stomachcancer
+83|cancer of gastric cardia|stomachcancer
+84|carcinoma of the cardia of the stomach|stomachcancer
+85|gastric cardia carcinoma|stomachcancer
+86|carcinoma of gastric fundus|stomachcancer
+87|carcinoma of the fundus of the stomach|stomachcancer
+88|cancer of gastric fundus|stomachcancer
+89|cancer of fundus of stomach|stomachcancer
+90|carcinoma of fundus of stomach|stomachcancer
+91|cancer of the gastric fundus|stomachcancer
+92|carcinoma of the gastric fundus|stomachcancer
+93|gastric fundus cancer|stomachcancer
+94|cancer of the fundus of the stomach|stomachcancer
+95|gastric fundus carcinoma|stomachcancer
+96|gastric mixed adenoneuroendocrine carcinoma|stomachcancer
+97|gastric neuroendocrine carcinoma|stomachcancer
+98|gastric nec|stomachcancer
+99|carcinoma of the pylorus of the stomach|stomachcancer
+100|carcinoma of pylorus of stomach|stomachcancer
+101|cancer of gastric pylorus|stomachcancer
+102|gastric pylorus cancer|stomachcancer
+103|cancer of the gastric pylorus|stomachcancer
+104|cancer of the pylorus of the stomach|stomachcancer
+105|carcinoma of gastric pylorus|stomachcancer
+106|carcinoma of the gastric pylorus|stomachcancer
+107|cancer of pylorus of stomach|stomachcancer
+108|gastric pylorus carcinoma|stomachcancer
+109|squamous cell carcinoma of the stomach|stomachcancer
+110|squamous cell carcinoma of stomach|stomachcancer
+111|gastric squamous cell carcinoma|stomachcancer
+112|recurrent carcinoma of the stomach|stomachcancer
+113|gastric carcinoma recurrent|stomachcancer
+114|recurrent stomach carcinoma|stomachcancer
+115|recurrent stomach cancer|stomachcancer
+116|recurrent gastric cancer|stomachcancer
+117|recurrent carcinoma of stomach|stomachcancer
+118|recurrent cancer of the stomach|stomachcancer
+119|recurrent cancer of stomach|stomachcancer
+120|recurrent gastric carcinoma|stomachcancer
+121|undifferentiated carcinoma of the stomach|stomachcancer
+122|anaplastic gastric carcinoma|stomachcancer
+123|undifferentiated carcinoma of stomach|stomachcancer
+124|anaplastic carcinoma of the stomach|stomachcancer
+125|anaplastic carcinoma of stomach|stomachcancer
+126|undifferentiated gastric carcinoma|stomachcancer
+127|naris|nostril
+128|external nare|nostril
+129|tox|toxicity
+130|side effect|toxicity
+131|side effects|toxicity
+132|infusion related reaction|toxicity
+133|ambulate|walk
+134|walking|walk
+135|nothing by mouth|nothingbymouth
+136|npo|nothingbymouth
+137|nil peros|nothingbymouth
+138|by mouth|bymouth
+139|po|bymouth
+140|anorexia|eatingdisorder
+141|anorexia nervosa|eatingdisorder
+142|binge eating|eatingdisorder
+143|bulimia nervosa|eatingdisorder
+144|sleep related eating disorder|eatingdisorder
+145|poor appetite|eatingdisorder
+146|appetite poor|eatingdisorder
+147|low appetite|eatingdisorder
+148|normal saline|ns
+149|history of present illness|hpi
+150|erythmatous|red
+151|contusion|bruise
+152|easy bruising|bruise
+153|excessive bruising|bruise
+154|skin bruise|bruise
+155|bruising|bruise
+156|ecchymosis|bruise
+157|visible lesion|lesion
+158|gross lesion|lesion
+159|edema|swelling
+160|anasarca|edema
+161|cerebral edema|edema
+162|chemosis|edema
+163|corneal edema|edema
+164|edema limbs|edema
+165|edema trunk|edema
+166|face edema|edema
+167|genital edema|edema
+168|laryngeal edema|edema
+169|localized edema|edema
+170|neck edema|edema
+171|papilledema|edema
+172|periorbital edema|edema
+173|pitting edema|edema
+174|vasogenic edema|edema
+175|visceral edema|edema
+176|aberrant crypt focus|lesion
+177|acquired lesion|lesion
+178|adulthood lesion|lesion
+179|annular lesion|lesion
+180|bone lesion|lesion
+181|childhood lesion|lesion
+182|composite lesion|lesion
+183|congenital lesion|lesion
+184|coronary vessel lesion|lesion
+185|cystic lesion|lesion
+186|deep lesion|lesion
+187|diffuse lesion|lesion
+188|dome shaped lesion|lesion
+189|dysplasia associated lesion or mass|lesion
+190|endobronchial lesion|lesion
+191|endometrial lymphoma like lesion|lesion
+192|eroded and ulcerated lesion|lesion
+193|excrescence|lesion
+194|exophytic papillary lesion|lesion
+195|exophytic polypoid lesion|lesion
+196|extraosseous lesion|lesion
+197|hereditary lesion|lesion
+198|iatrogenic lesion|lesion
+199|index lesion|lesion
+200|intracranial leptomeningeal lesion|lesion
+201|intraocular lesion|lesion
+202|intraosseous lesion|lesion
+203|juvenile lesion|lesion
+204|lesion by focality|lesion
+205|lesion by grade|lesion
+206|lesion by morphology|lesion
+207|lesion by stage|lesion
+208|lesion with diameter of 4mm or more|lesion
+209|lesion with diameter of 5cm or less|lesion
+210|localized lesion|lesion
+211|locally aggressive lesion|lesion
+212|macular lesion|lesion
+213|metastatic lesion|lesion
+214|metasynchronous lesion|lesion
+215|multicentric lesion|lesion
+216|mushroom shaped lesion|lesion
+217|needle tract lesion|lesion
+218|nodular lesion|lesion
+219|non hereditary lesion|lesion
+220|non index lesion|lesion
+221|non measurable lesion|lesion
+222|pancreatic intraepithelial neoplasia/lesion 1a|lesion
+223|papular lesion|lesion
+224|papulosquamous lesion|lesion
+225|papulovesicular lesion|lesion
+226|peau chagrine lesion|lesion
+227|pedunculated lesion|lesion
+228|placental lesion|lesion
+229|primary lesion|lesion
+230|rare lesion|lesion
+231|rarely metastasizing lesion|lesion
+232|rubbery skin lesion|lesion
+233|secondary lesion|lesion
+234|serosal lesion|lesion
+235|sessile lesion|lesion
+236|skin patch|lesion
+237|skin red dot|lesion
+238|small lesion|lesion
+239|spinal leptomeningeal lesion|lesion
+240|superficial lesion|lesion
+241|synchronous lesion|lesion
+242|targetoid lesion|lesion
+243|well circumscribed lesion|lesion
+244|dyspnea paroxysmal nocturnal|dyspnea
+245|blood pressure high|hypertension
+246|pressure high blood|hypertension
+247|blood pressure increased|hypertension
+248|htn|hypertension
+249|vascular hypertensive disorder|hypertension
+250|increased blood pressure|hypertension
+251|high blood pressure|hypertension
+252|borderline hypertension|hypertension
+253|chronic maternal hypertension|hypertension
+254|chronic maternal hypertension with superimposed preeclampsia|hypertension
+255|diastolic hypertension|hypertension
+256|endocrine hypertension|hypertension
+257|essential hypertension|hypertension
+258|gestational hypertension|hypertension
+259|malignant hypertension|hypertension
+260|neonatal hypertension|hypertension
+261|ocular hypertension|hypertension
+262|page kidney|hypertension
+263|paroxysmal hypertension|hypertension
+264|portal hypertension|hypertension
+265|postoperative hypertension|hypertension
+266|postpartum hypertension|hypertension
+267|pulmonary hypertension|hypertension
+268|renal hypertension|hypertension
+269|secondary hypertension|hypertension
+270|systolic hypertension|hypertension
+271|uncomplicated hypertension|hypertension
+272|unspecified antepartum hypertension|hypertension
+273|orthostatic hypotension|hypotension
+274|low blood pressure|hypotension
+275|decreased blood pressure|hypotension
+276|vascular hypotensive disorder|hypotension
+277|blood pressure decreased|hypotension
+278|blood pressure low|hypotension
+279|pressure low blood|hypotension
+280|cancer of breast|breastcancer
+281|breast cancer nos|breastcancer
+282|carcinoma of the breast|breastcancer
+283|mammary carcinoma|breastcancer
+284|carcinoma of breast|breastcancer
+285|cancer breast|breastcancer
+286|breast cancer|breastcancer
+287|cancer of the breast|breastcancer
+288|breast carcinoma|breastcancer
+289|bilateral breast carcinoma|breastcancer
+290|breast adenocarcinoma|breastcancer
+291|breast carcinoma by ajcc v6 stage|breastcancer
+292|breast carcinoma by ajcc v7 stage|breastcancer
+293|breast carcinoma by gene expression profile|breastcancer
+294|childhood breast carcinoma|breastcancer
+295|early stage breast carcinoma|breastcancer
+296|female breast carcinoma|breastcancer
+297|hereditary breast carcinoma|breastcancer
+298|invasive breast carcinoma|breastcancer
+299|male breast carcinoma|breastcancer
+300|multicentric breast carcinoma|breastcancer
+301|multifocal breast carcinoma|breastcancer
+302|nipple carcinoma|breastcancer
+303|recurrent breast carcinoma|breastcancer
+304|sporadic breast carcinoma|breastcancer
+305|unilateral breast carcinoma|breastcancer
+306|malignant tumor of the heart|heartcancer
+307|malignant tumor of heart|heartcancer
+308|malignant neoplasm of heart|heartcancer
+309|malignant heart neoplasm|heartcancer
+310|cardiac neoplasm malignant|heartcancer
+311|malignant heart tumor|heartcancer
+312|malignant cardiac tumor|heartcancer
+313|malignant neoplasm of the heart|heartcancer
+314|heart cancer|heartcancer
+315|cardiac epithelioid hemangioendothelioma|heartcancer
+316|cardiac lymphoma|heartcancer
+317|cardiac myeloid sarcoma|heartcancer
+318|cardiac sarcoma|heartcancer
+319|malignant cardiac germ cell tumor|heartcancer
+320|malignant cardiac paraganglioma|heartcancer
+321|malignant cardiac peripheral nerve sheath tumor|heartcancer
+322|malignant endocardial neoplasm|heartcancer
+323|malignant epicardial neoplasm|heartcancer
+324|malignant myocardial neoplasm|heartcancer
+325|malignant pericardial neoplasm|heartcancer
+326|metastatic malignant neoplasm in the heart|heartcancer
+327|cardiac fibrosarcoma|heartcancer
+328|cardiac kaposi sarcoma|heartcancer
+329|cardiac leiomyosarcoma|heartcancer
+330|cardiac rhabdomyosarcoma|heartcancer
+331|cardiac synovial sarcoma|heartcancer
+332|cardiac undifferentiated pleomorphic sarcoma|heartcancer
+333|cardiac biphasic synovial sarcoma|heartcancer
+334|cardiac monophasic synovial sarcoma|heartcancer
+335|metastatic malignant neoplasm in the pericardium|heartcancer
+336|pericardial malignant mesothelioma|heartcancer
+337|pericardial carcinomatosis|heartcancer
+338|advanced pericardial malignant mesothelioma|heartcancer
+339|recurrent pericardial malignant mesothelioma|heartcancer
+340|metastatic lymphoma in the heart|heartcancer
+341|adenosquamous lung carcinoma|nsclc
+342|occult adenosquamous lung carcinoma|nsclc
+343|recurrent adenosquamous lung carcinoma|nsclc
+344|childhood non small cell lung carcinoma|nsclc
+345|large cell lung carcinoma|nsclc
+346|basaloid large cell lung carcinoma|nsclc
+347|large cell lung carcinoma with rhabdoid phenotype|nsclc
+348|large cell lung carcinoma clear cell variant|nsclc
+349|large cell lung neuroendocrine carcinoma|nsclc
+350|lymphoepithelioma like lung carcinoma|nsclc
+351|occult large cell lung carcinoma|nsclc
+352|recurrent large cell lung carcinoma|nsclc
+353|acinar lung adenocarcinoma|nsclc
+354|bronchioloalveolar carcinoma|nsclc
+355|fetal lung adenocarcinoma|nsclc
+356|lepidic predominant adenocarcinoma|nsclc
+357|lung adenocarcinoma mixed subtype|nsclc
+358|lung clear cell adenocarcinoma|nsclc
+359|lung mucinous adenocarcinoma|nsclc
+360|lung signet ring cell carcinoma|nsclc
+361|occult lung adenocarcinoma|nsclc
+362|papillary lung adenocarcinoma|nsclc
+363|recurrent lung adenocarcinoma|nsclc
+364|solid lung adenocarcinoma with mucin production|nsclc
+365|lung carcinosarcoma|nsclc
+366|lung giant cell carcinoma|nsclc
+367|lung pleomorphic carcinoma|nsclc
+368|lung spindle cell carcinoma|nsclc
+369|pulmonary blastoma|nsclc
+370|biphasic pulmonary blastoma|nsclc
+371|epithelial predominant pulmonary blastoma|nsclc
+372|occult adenosquamous lung carcinoma|nsclc
+373|occult large cell lung carcinoma|nsclc
+374|occult lung adenocarcinoma|nsclc
+375|occult non small cell lung carcinoma|nsclc
+376|recurrent non small cell lung carcinoma|nsclc
+377|recurrent adenosquamous lung carcinoma|nsclc
+378|recurrent large cell lung carcinoma|nsclc
+379|recurrent lung adenocarcinoma|nsclc
+380|squamous cell lung carcinoma clear cell variant|nsclc
+381|squamous cell lung carcinoma papillary variant|nsclc
+382|childhood small cell lung carcinoma|sclc
+383|combined small cell lung carcinoma|sclc
+384|extensive stage small cell lung carcinoma|sclc
+385|limited stage small cell lung carcinoma|sclc
+386|occult small cell lung carcinoma|sclc
+387|recurrent small cell lung carcinoma|sclc
+388|stage iii small cell lung carcinoma|sclc
+389|combined small cell and squamous cell lung carcinoma|sclc
+390|combined small cell lung carcinoma and lung adenocarcinoma|sclc
+391|small cell lung carcinoma with pleural effusion|sclc
+392|stage i small cell lung carcinoma|sclc
+393|stage ia small cell lung carcinoma|sclc
+394|stage ib small cell lung carcinoma|sclc
+395|stage ii small cell lung carcinoma|sclc
+396|stage iia small cell lung carcinoma|sclc
+397|stage iib small cell lung carcinoma|sclc
+398|stage iiia small cell lung carcinoma|sclc
+399|stage iiib small cell lung carcinoma without pleural effusion|sclc
+400|occult small cell lung carcinoma|sclc
+401|recurrent small cell lung carcinoma|sclc
+402|stage iii small cell lung carcinoma|sclc
+403|stage iiia small cell lung carcinoma|sclc
+404|stage iiib small cell lung carcinoma|sclc
+405|stage iiib small cell lung carcinoma with pleural effusion|sclc
+406|stage iiib small cell lung carcinoma without pleural effusion|sclc
