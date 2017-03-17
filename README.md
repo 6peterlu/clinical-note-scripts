@@ -1,5 +1,5 @@
 # clinical-note-scripts
-###Current Features:
+### Current Features:
 1. change all text to lowercase 
 2. remove all numbers except single digits 
 3. remove all special characters 
